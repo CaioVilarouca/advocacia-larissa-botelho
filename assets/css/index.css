@@ -3,7 +3,7 @@
 
     /* Primárias */
     --first-color: hsl(var(--hue-color), 65%, 61%);        
-    --first-color-second: rgba(0, 0, 0, 0.8);
+    --first-color-second: hsl(var(--hue-color), 75%, 62%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);    
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%); 
 
@@ -360,6 +360,15 @@ img {
     background-color: transparent;
     color: var(--first-color-alt);
 }
+
+.button-white {
+    background-color: var(--white-color);
+    color: var(--first-color);
+}
+
+.button-white:hover {
+    background-color: var(--white-color);
+}
 /* / Buttons */ 
 
 /* About */
@@ -481,3 +490,34 @@ img {
     visibility: visible;
 }
 /* / Services */
+
+/* Project */
+.project {
+    text-align: center;
+}
+
+.project-bg {
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+}
+
+.project-title {
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.project-description {
+    margin-bottom: var(--mb-1-5);
+    font-weight: var(--font-semi-bold);
+}
+
+.project-title,
+.project-description {
+    color: var(--white-color);
+}
+
+.project-img {
+    width: 232px;
+    justify-self: center;
+}
+/* / Project */
