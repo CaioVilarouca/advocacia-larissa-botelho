@@ -346,3 +346,23 @@ img {
     align-items: center;
 }
 /* / Buttons */ 
+
+/* About */
+.about-img {
+    width: 200px;
+    border-radius: 0.5rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.about-description {
+    text-align: justify;
+    color: var(--title-color);
+    margin-bottom: var(--mb-0-5);
+}
+
+.about-data {
+    background: #ececec;
+    padding: 2rem;
+}
+/* / About */
