@@ -368,6 +368,7 @@ img {
     border-radius: 0.5rem;
     justify-self: center;
     align-self: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .about-description {
@@ -378,6 +379,7 @@ img {
 
 .about-data {
     background: #ececec;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     padding: 2rem;
 }
 /* / About */
