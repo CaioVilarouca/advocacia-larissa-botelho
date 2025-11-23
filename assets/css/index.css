@@ -7,6 +7,8 @@
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);    
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%); 
 
+    --white-color: #fff;
+
     /* Texto */
     --title-color: hsl(var(--hue-color), 8%, 15%);       
     --text-color: hsl(var(--hue-color), 8%, 45%);          
@@ -234,3 +236,113 @@ img {
     bottom: 0;
 }
 /* / Navbar */
+
+/* Home */
+.home-container {
+    gap: 1rem;
+}
+
+.home-content {
+    grid-template-columns: .5fr 3fr;
+    padding-top: 3.5rem;
+    align-items: center;
+}
+
+.home-social {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.home-social-icon {
+    font-size: 1.25rem;
+    color: var(--first-color);
+}
+
+.home-social-icon:hover {
+    color: var(--first-color-alt);
+}
+
+.home-img {
+    width: 200px;
+}
+
+.img-primary {
+    width: 170px;
+    mask-image: linear-gradient(to bottom, hsla(var(--hue-color), 65%, 61%) 60%, transparent 100%);
+    border-radius: .3rem;
+}
+
+.home-data {
+    grid-column: 1/3;
+}
+
+.home-title {
+    font-size: var(--big-font-size);
+}
+
+.home-subtitle {
+    font-size: var(--h3-font-size);
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-75);
+}
+
+.home-description {
+    margin-bottom: var(--mb-2);
+}
+
+.home-scroll {
+    display: none
+}
+
+.home-scroll-button {
+    color: var(--first-color);
+    transition: .3s;
+}
+
+.home-scroll-button:hover {
+    transform: translateY(.25rem);
+}
+
+.home-scroll-mouse {
+    font-size: 2rem;
+}
+
+.home-scroll-name {
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+}
+
+.home-scroll-arrow {
+    font-size: 1.25rem;
+}
+/* / Home */
+
+/* Buttons */ 
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--white-color);
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-semi-bold);
+}
+
+.button:hover {
+    background-color: var(--first-color-alt);
+}
+
+.button-icon {
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: .3s;
+}
+
+.button-flex {
+    display: inline-flex;
+    align-items: center;
+}
+/* / Buttons */ 
