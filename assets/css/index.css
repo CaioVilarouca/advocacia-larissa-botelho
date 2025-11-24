@@ -435,8 +435,9 @@ body.dark-theme {
 }
 
 .about-data {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
     padding: 2rem;
+    background-color: var(--container-color);
 }
 /* / About */
 
@@ -448,7 +449,7 @@ body.dark-theme {
 
 .services-content {
     position: relative;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
     background-color: var(--container-color);
     padding: 3.5rem .5rem 1.25rem 1.5rem;
     border-radius: .25rem;
